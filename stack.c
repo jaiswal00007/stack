@@ -65,10 +65,13 @@ void display()
     {
         printf("Stack Is Empty!!");
     }
-    printf("Stack::\n");
-    for(i=top;i>=0;i--)
+    else
     {
-        printf("%d\n",stck[i]);
-    }    
+        printf("Stack::\n");
+        for(i=top;i>=0;i--)
+        {
+            printf("%d\n",stck[i]);
+        } 
+    }
 getch();    
 }
